@@ -1,14 +1,8 @@
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 20%
-    right: 10%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+    top: 46%
+    right: 70%
 
 @keyframes float1
   0%
@@ -20,11 +14,265 @@
 .banner-principal .tarjeta
   background-position: left 50% !important
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 37% !important  
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+  color: black !important   
 .banner-interno__titulo__icono i
   color: $color-primario
 figcaption
   font-weight: normal
  
+.banner-interno__fondo    
+  background-image: url("../assets/curso/portada/portada.png") !important
+
+
+
+
+
+.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
+    color: black
+
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+      padding-right: 5% !important
+    &
+      p, h1
+        color: white
+
+.bgs
+  background-color: #F6F6F6
+  border-radius: 15px
+
+.fondo1
+  background: url('../assets/curso/intro/fondo1.png')
+  background-size: 100%
+  background-repeat: no-repeat
+  background-position: top
+  margin-top: -53px
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
+
+
+.titulo-sexto 
+    margin-bottom: 24px
+    border-left: 10px solid
+    padding: 5px 0 5px 8px
+.titulo-sexto.color-secundario 
+    border-left-color: #F96E97 !important
+.titulo-segundo:after 
+    content: ''
+    display: block
+    height: 4.5px
+    width: 140px
+    border-left: solid 50px
+    border-left-color: #F96E97
+    background-color: #e8e8e8
+
+.bg1
+  background-color: #E5F4FF
+
+.bg2
+  background-color: #FFE6FB
+
+.bg3
+  background-color: #FCC5D5
+  width: fit-content
+
+.fa-circle 
+  font-size: 10px
+  
+.or
+   font-size: 20.8px
+
+.fa-leaf
+  color: #F96E97
+
+.bloque-texto-a__texto
+    background-color: rgba(255, 255, 255, 0.92)
+
+.bloque-texto-a.color-acento-contenido:before 
+    background-color: #E5F4FF
+.bloque-texto-a.color-acento-contenido 
+    background-color: #F96E97
+
+
+.fondo2
+  background: url('../assets/curso/tema1/fondo2.png')
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  background-position: cover
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
+.tarjetaf
+  background-color: #fff
+  border-radius: 15px
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    width: 50px
+    height: 50px
+    background-color:#FEE3B3
+    border-radius: 50%
+.slyder-a__bullets__item 
+    background-color: #FDCCDB
+    border-color: #FDCCDB
+.slyder-a__bullets__item--active 
+    background-color: #F96E97 !important
+    border-color: #F96E97 !important
+
+.br
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    width: 100px
+    height: 130px
+    background-image: url('../assets/curso/tema1/linea.png')
+    background-size: contain
+    background-repeat: no-repeat
+    top: -130px
+    right: -100px
+
+@media (max-width: 1024px) 
+    .br
+      display: none
+
+
+.img-a
+  width: auto
+  height: auto
+.img-t
+  display: block
+  margin: auto
+
+
+@media (min-width: 768px) and (max-width: 1024px) 
+  .o1
+     order: 1
+  .o2
+     order: 2
+  .o3
+     order: 3
+
+@media (max-width: 767px)  
+  .o1
+     order: 1
+  .o2
+     order: 2
+  .o3
+     order: 3
+
+  
+.bg16
+  background-color: #DAF2E4
+
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
+    background-color: #CDB8FD
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color: #CDB8FD
+    color: black !important
+.linea-tiempo-d .tarjeta 
+    border-radius: 5px
+.tarjeta--gris 
+    background-color:#FFCEF7
+
+
+.bloque-texto-f.color-acento-contenido:before
+    background-color: #EFFAF4
+
+
+
+   
+.bloque-texto-d 
+    border-top: 0px
+.bloque-texto-b.color-secundario:before 
+    background-color: #EFFAF4
+    .bloque-texto-b:before 
+    content: ''
+    display: block
+    position: absolute
+    top: 41%
+    bottom: 10px
+    left: 2%
+    right: 0
+.fa-quote-right.r2
+    position: relative
+    &::before
+      top: 30px
+      right: -20px
+      position: absolute
+.fa-quote-left.r1
+    position: relative
+    &::before
+      top: -10px
+      right: -25px
+      position: absolute
+
+.fa-file-download
+    content: url('../assets/curso/tema2/dow.png')
+
+
+.bg4
+  background-color: #DAF2E4
+
+
+.left
+  position: relative
+  left: -35%
+  top: 0px
+
+
+.tarjeta--gris.ul 
+    background-color: #Fff
+
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right 
+    min-width: 50px
+    max-width: 50px
+    min-height: 50px
+    max-height: 50px
+    flex: auto
+    border-radius: 50%
+    border: 2px solid #cccccc
+    background-color: #FEE3B3
+    position: relative
+    cursor: pointer
+    transition: border-color 0.2s ease-in-out
+
+.bl1
+  position: relative
+  overflow: hidden
+
+.enc
+  position: absolute
+  bottom: 0
+  right: -2.8rem
+  width: 42% 
+  z-index: 1
+  @media (max-width: 1300px)
+    display: none
+@media (min-width: 768px) and (max-width: 1024px)
+    .col-lg-8.com
+        flex: 0 0 auto
+        width: 67%
+@media (max-width: 1300px)
+  .col-lg-8.com
+        flex: 0 0 auto
+        width: 100%

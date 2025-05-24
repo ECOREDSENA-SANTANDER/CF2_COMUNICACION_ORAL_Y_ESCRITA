@@ -1,17 +1,14 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Argumentación',
+    Description:
+      'Desde esta perspectiva, el profesional está llamado a fortalecer su mirada crítica, a fundamentar sus ideas, a investigar sobre una proposición determinada y construir argumentos sólidos en torno a ella. No debe temer a las ideas contrarias, ya que, si sus argumentos se sustentan en tesis de especialistas, investigaciones citadas y en su propia experiencia que nutre su lógica y la exponen de manera clara, sin pretender imponer su razón ni personalizar las diferencias, el escenario de intervención será tanto constructivo como ético. Si además exponen sus argumentos con tranquilidad, credibilidad, seguridad y contundencia, orientados al aporte profesional o personal, experimentarán una profunda sensación de satisfacción.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },
@@ -31,13 +28,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'La argumentación',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Decodificación y estructura de mensajes',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Pregunta, observación e interpretación',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Argumentación y proposición',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,13 +52,30 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Relación entre pensamiento y lenguaje',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Lectura comprensiva e interpretativa',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Pensar, organizar e interpretar el mundo',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Comprender y argumentar',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Tipos de argumentación',
         desarrolloContenidos: true,
       },
     ],
@@ -102,22 +126,137 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
+      tema: 'Normas para una buena argumentación',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. 2024. Normas para una buena argumentación.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=HDFGXvSJ_vg',
+    },
+    {
+      tema: 'La argumentación',
+      referencia:
+        'Weston, A., & Seña, J. F. M. (1994). Las claves de la argumentación. Barcelona: Ariel.',
+      tipo: 'Libro',
+      link:
+        'https://d1wqtxts1xzle7.cloudfront.net/54803970/LAS_CLAVES_PARA_LA_ARGUMENTACION_148_PAG_PDF-libre.pdf?1508842784=&response-content-disposition=inline%3B+filename%3DLAS_CLAVES_PARA_LA_ARGUMENTACION_148_PAG.pdf&Expires=1746045156&Signature=cMooUwni9OWYWH1RcHeYGBqq6UkLULtFKH8ucGkUW2hi5iLN8fQcllKZR6Hu86i9bIpUstfkRyS7HTdoOZJ8wCzirSG30xTDarQdx60YSThGLT38xshCNhCYeFtT7SFbgs67APqJAmKTjviaoyOMY0bCDxFAgD4J8TrX3hHMlP1sulvT~fHkjbQIsayprrRArfIWOtRoaWJJoV5IFWomOqe4BI9ZbuYC0x1N9G3006JjAXgCr0vhdWFE3xBkgWCfU16SzbXoMKxhKtC~bX4KgQlCc-9FjJ36BaMGqL2IlYJs8dRhSRkAJzwjbdY6-qD13nOAen7xwPoUCynkQJHXBQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Argumentación',
+      significado:
+        'proceso comunicativo mediante el cual se expresan razones para defender o refutar una idea.',
+    },
+    {
+      termino: 'Argumento',
+      significado:
+        'razón o conjunto de razones que apoyan o refutan una tesis.',
+    },
+    {
+      termino: 'Audiencia',
+      significado:
+        'receptor o grupo de receptores a los que va dirigida una argumentación.',
+    },
+    {
+      termino: 'Conclusión',
+      significado:
+        'idea que se deduce a partir de las premisas y argumentos presentados.',
+    },
+    {
+      termino: 'Contraargumento',
+      significado:
+        'argumento que se opone a una tesis o a otro argumento previamente expuesto.',
+    },
+    {
+      termino: 'Debate',
+      significado:
+        'discusión estructurada en la que dos o más partes presentan argumentos opuestos.',
+    },
+    {
+      termino: 'Evidencia',
+      significado:
+        'prueba o dato que respalda un argumento, puede ser empírica, estadística o testimonial.',
+    },
+    {
+      termino: 'Falacia',
+      significado:
+        'razonamiento incorrecto que parece válido, pero que en realidad es erróneo o engañoso.',
+    },
+    {
+      termino: 'Lógica',
+      significado:
+        'disciplina que estudia la estructura del razonamiento válido.',
+    },
+    {
+      termino: 'Persuasión',
+      significado:
+        'capacidad de influir en las ideas, creencias o comportamientos de otros a través de argumentos.',
+    },
+    {
+      termino: 'Premisa',
+      significado:
+        'afirmación que sirve como base o punto de partida para construir un argumento.',
+    },
+    {
+      termino: 'Razonamiento',
+      significado:
+        'proceso mental que permite llegar a conclusiones a partir de información o argumentos.',
+    },
+    {
+      termino: 'Refutación',
+      significado:
+        'respuesta que busca demostrar que un argumento o contraargumento es inválido.',
+    },
+    {
+      termino: 'Retórica',
+      significado:
+        'arte de expresarse con el fin de convencer o persuadir mediante el lenguaje.',
+    },
+    {
+      termino: 'Tesis',
+      significado:
+        'idea principal o postura que se defiende en una argumentación.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'Aristóteles. (340 A.C.). Ética a Nicomaco.',
+    },
+    {
+      referencia:
+        'Bustamante & Alfonso (2009). Lógica y argumentación. De los argumentos inductivos a las álgebras de Boole.',
+    },
+    {
+      referencia:
+        'Campos, Lule & Nallely (2012). La observación, un método para el estudio de la realidad.',
+    },
+    {
+      referencia: 'Copi & Cohen (1998). Introducción a la lógica.',
+    },
+    {
+      referencia:
+        'De la Garza, D. (2003). ¿Qué es el pensamiento dialógico crítico?',
+    },
+    {
+      referencia: 'Ecured (s.F.). Comprensión (Literatura).',
+    },
+    {
+      referencia:
+        'Freire, Paulo & Faúndez (1985). Por una pedagogía de la pregunta.',
+    },
+    {
+      referencia:
+        'Lectura Ágil (2019). 3 ejercicios para Potenciar tu Concentración y tu Memoria.',
+    },
+    {
+      referencia:
+        'Ortega (2002). Cómo lograr que los demás se salgan con la nuestra. Técnicas de persuasión, negociación y oratoria.',
+    },
+    {
+      referencia: 'Uriarte J. (2020). 10 características del pensamiento. ',
+    },
+    {
+      referencia: 'Vygotsky (1984). Pensamiento y lenguaje. Capítulo 7.',
     },
   ],
   creditos: [
@@ -140,9 +279,19 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: ' ',
-          cargo: ' ',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Elba Patricia Rodríguez',
+          cargo: 'Experta técnica',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Zvi Daniel Grosman',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -150,17 +299,17 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: ' ',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Jenny Reyes',
+          cargo: 'Diseñadora de contenidos',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: 'Pedro Alonso Bolivar González',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: '',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -170,12 +319,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
+          nombre: '',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: '',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
