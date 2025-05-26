@@ -28,13 +28,13 @@
           .bg1.mb-5
             .row.justify-content-center.align-items-center.mb-5
               .col-lg-5.d-none.d-lg-block(data-aos="fade-right")
-                .bg2.p-4
-                  img(src='@/assets/curso/tema1/3.svg', alt='')
+                .bg2.p-3
+                  img.img-a.img-t(src='@/assets/curso/tema1/3.svg', alt='')
               .col-lg-7.p-4(data-aos="fade-left")
                 .bg3.p-1.mb-4
                   h4.mb-0.ps-3.pe-3(data-aos="fade-left") ¿Es el lugar adecuado para emitir este mensaje?
                 p.mb-0(data-aos="fade-right") En muchas ocasiones se emiten mensajes sin pensar si será el momento y el contexto adecuado. 
-        .col-lg-3
+        .col-lg-3.mb-lg-5
           img.d-none.d-lg-block(src='@/assets/curso/tema1/4.png', alt='')
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
