@@ -15,7 +15,7 @@
           .col-lg-4
             img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/10.svg')
           .col-lg-8
-            p.mb-lg-4.mb-2(data-aos="fade-left") La argumentación no es una única forma de razonar, sino que puede adoptar distintas estructuras dependiendo del objetivo, la audiencia y el contexto. A continuación, te presento los tipos más comunes de argumentación, junto con las bases teóricas que los sustentan.
+            p.mb-lg-4.mb-2(data-aos="fade-left") La argumentación no es una única forma de razonar, sino que puede adoptar distintas estructuras dependiendo del objetivo, la audiencia y el contexto. A continuación, presento los tipos más comunes de argumentación, junto con las bases teóricas que los sustentan.
 
 
     .row.fondo2.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-down")
@@ -151,7 +151,7 @@
                     .col
                       p.mb-lg-0.mb-4 Ejemplo:
                     .col-lg-11
-                      p.mb-0 - Argumento emocional: imagínate perder a un ser querido por un accidente que pudo haberse evitado con medidas de seguridad vial.
+                      p.mb-0 - Argumento emocional: imagína perder a un ser querido por un accidente que pudo haberse evitado con medidas de seguridad vial.
                       p.mb-0 - Conclusión emocional: debemos usar siempre el cinturón de seguridad para evitar tragedias.
 
             .row.justify-content-center.align-items-center(titulo="Paso 7")

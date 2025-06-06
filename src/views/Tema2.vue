@@ -83,7 +83,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-2 Explora el siguiente video: 
+              h4.mb-2 Le invitamos a explorar:
               p.mb-0 3 Ejercicios para Potenciar tu Concentración y tu Memoria, con la finalidad de reforzar los conocimientos adquiridos.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=KVKZTPvdABs" target="_blank")

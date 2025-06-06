@@ -141,7 +141,8 @@
                       p.mb-4 Con estos aportes, la observación sistemática que utiliza todos los sentidos y el conocimiento propio y se hace con un propósito determinado previamente, aporta a la recolección de información, objeto de análisis e interpretación. Para la RAE interpretar es “explicar o declarar el sentido de algo, y principalmente el de un texto”, explicar acciones, dichos o sucesos que pueden ser entendidos de diferentes modos”.
                     .col-lg-5
                       p.mb-4 Por tanto, dar sentido y significado a un texto o situación real, permite aprehender el conocimiento y por tanto dominio como herramienta vital en la argumentación.
-                      p.mb-0 Campos y Lule (2012), aportan los siguientes criterios a tener en cuenta en la técnica de observación para que esta sea objetiva y definida, evitando desviar el tema de estudio. Se parafrasean los criterios así:
+      
+      p.mb-5 Campos y Lule (2012), aportan los siguientes criterios a tener en cuenta en la técnica de observación para que esta sea objetiva y definida, evitando desviar el tema de estudio. Se parafrasean los criterios así:
 
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
         .col-lg-10
@@ -162,7 +163,7 @@
 
             .col-lg-12.o2
               img.img-a.mb-4(data-aos="fade-left")(src='@/assets/curso/tema1/14.svg' alt='AvatarTop')
-              p.mb- #[b C.] Diseñar las guías de observación que auxilien a sistematizar el proceso; así como la duración y frecuencia de los registros; la funcionalidad de estas guías estará sujeta al tipo de observación que se emplee: de laboratorio, participante, no participante, estructurada o no estructurada.
+              p.mb-0 #[b C.] Diseñar las guías de observación que auxilien a sistematizar el proceso; así como la duración y frecuencia de los registros; la funcionalidad de estas guías estará sujeta al tipo de observación que se emplee: de laboratorio, participante, no participante, estructurada o no estructurada.
             
       separador
       #t_1_3.titulo-segundo.mb-lg-5.mb-3
@@ -193,7 +194,7 @@
                 li.d-flex.mb-3
                   .lista-ol--cuadro__vineta
                     span.text-black b
-                  | Asumir una postura objetiva frente a una situación socio familiar determinada.
+                  | Asumir una postura objetiva frente a una situación sociofamiliar determinada.
                 li.d-flex.mb-3
                   .lista-ol--cuadro__vineta
                     span.text-black c

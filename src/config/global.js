@@ -126,7 +126,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'Normas para una buena argumentación',
+      tema: 'La argumentación',
       referencia:
         'Ecosistema de Recursos Educativos Digitales SENA. 2024. Normas para una buena argumentación.',
       tipo: 'Video',
@@ -138,7 +138,7 @@ export default {
         'Weston, A., & Seña, J. F. M. (1994). Las claves de la argumentación. Barcelona: Ariel.',
       tipo: 'Libro',
       link:
-        'https://d1wqtxts1xzle7.cloudfront.net/54803970/LAS_CLAVES_PARA_LA_ARGUMENTACION_148_PAG_PDF-libre.pdf?1508842784=&response-content-disposition=inline%3B+filename%3DLAS_CLAVES_PARA_LA_ARGUMENTACION_148_PAG.pdf&Expires=1746045156&Signature=cMooUwni9OWYWH1RcHeYGBqq6UkLULtFKH8ucGkUW2hi5iLN8fQcllKZR6Hu86i9bIpUstfkRyS7HTdoOZJ8wCzirSG30xTDarQdx60YSThGLT38xshCNhCYeFtT7SFbgs67APqJAmKTjviaoyOMY0bCDxFAgD4J8TrX3hHMlP1sulvT~fHkjbQIsayprrRArfIWOtRoaWJJoV5IFWomOqe4BI9ZbuYC0x1N9G3006JjAXgCr0vhdWFE3xBkgWCfU16SzbXoMKxhKtC~bX4KgQlCc-9FjJ36BaMGqL2IlYJs8dRhSRkAJzwjbdY6-qD13nOAen7xwPoUCynkQJHXBQ__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA',
+        'https://www.bfa.fcnym.unlp.edu.ar/catalogo/doc_num.php?explnum_id=2314',
     },
   ],
   glosario: [
@@ -238,7 +238,7 @@ export default {
         'De la Garza, D. (2003). ¿Qué es el pensamiento dialógico crítico?',
     },
     {
-      referencia: 'Ecured (s.F.). Comprensión (Literatura).',
+      referencia: 'Ecured (s.f.). Comprensión (Literatura).',
     },
     {
       referencia:
