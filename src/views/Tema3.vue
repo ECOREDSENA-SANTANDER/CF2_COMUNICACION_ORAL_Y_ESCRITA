@@ -151,7 +151,7 @@
                     .col
                       p.mb-lg-0.mb-4 Ejemplo:
                     .col-lg-11
-                      p.mb-0 - Argumento emocional: imagína perder a un ser querido por un accidente que pudo haberse evitado con medidas de seguridad vial.
+                      p.mb-0 - Argumento emocional: imagine perder a un ser querido por un accidente que pudo haberse evitado con medidas de seguridad vial.
                       p.mb-0 - Conclusión emocional: debemos usar siempre el cinturón de seguridad para evitar tragedias.
 
             .row.justify-content-center.align-items-center(titulo="Paso 7")
@@ -172,19 +172,19 @@
                     ul.lista-ul
                       li.d-flex.mb-1
                         i.fas.fa-leaf
-                        p.mb-0 Escucha con respeto antes de responder.
+                        p.mb-0 Escuchar con respeto antes de responder.
                       li.d-flex.mb-1
                         i.fas.fa-leaf
-                        p.mb-0 Usa un lenguaje claro y ordenado.
+                        p.mb-0 Usar un lenguaje claro y ordenado.
                       li.d-flex.mb-1
                         i.fas.fa-leaf
-                        p.mb-0 Evita imponer tu opinión.
+                        p.mb-0 Evitar imponer la propia opinión.
                       li.d-flex.mb-1
                         i.fas.fa-leaf
-                        p.mb-0 Investiga antes de argumentar.
+                        p.mb-0 Investigar antes de argumentar.
                       li.d-flex.mb-1
                         i.fas.fa-leaf
-                        p.mb-0 Sé crítico, pero también abierto al diálogo.
+                        p.mb-0 Ser crítico, pero también abierto al diálogo.
                 
 
 

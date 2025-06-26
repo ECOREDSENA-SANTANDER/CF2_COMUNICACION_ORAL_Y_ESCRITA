@@ -230,46 +230,47 @@
       p.mb-4(data-aos="fade-right") Además de lo mencionado, para saber cómo argumentar, es necesario saber las formas de argumentación y de acuerdo con ello, el exponente del argumento reunirá la información a partir de observación, lecturas o ejercicios investigativos, que aporten elementos suficientes y necesarios para construir su argumento.
       p.mb-4(data-aos="fade-left") La estructura argumentativa puede ser:
 
-
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-6(data-aos="fade-left")
-          LineaTiempoD.color-acento-contenido
-            .row.justify-content-center.align-items-center(numero="1" titulo="Argumento deductivo") 
+      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
+        .col-lg-6.col-md-5.col-8.mb-4
+          img.d-none.d-lg-block.bor(src='@/assets/curso/tema1/22.png', alt='')
+        .col-lg-6.mb-0
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-0(data-aos="fade-right")
+            .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="1. Argumento deductivo")
               .col-lg-12
-                ul.lista-ul
-                  li.d-flex.mb-2
+                ul.lista-ul.mb-0
+                  li.d-flex.mb-0
                     i.fas.fa-leaf
                     p.mb-2 Va de lo general a lo particular.
-                  li.d-flex.mb-2
+                  li.d-flex.mb-0
                     i.fas.fa-leaf
                     p.mb-0 La proposición se menciona al inicio del argumento.
-            .row.justify-content-center.align-items-center(numero="2" titulo="Argumento inductivo ") 
+            .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="2. Argumento inductivo ")
               .col-lg-12
-                ul.lista-ul
-                  li.d-flex.mb-2
+                ul.lista-ul.mb-0
+                  li.d-flex.mb-0
                     i.fas.fa-leaf
                     p.mb-2 Va de lo particular a lo general.
-                  li.d-flex.mb-2
+                  li.d-flex.mb-0
                     i.fas.fa-leaf
                     p.mb-0 La proposición se menciona al final del argumento.
-            .row.justify-content-center.align-items-center(numero="3" titulo="Argumento encuadrado o circular") 
+            .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="3. Argumento encuadrado o circular")
               .col-lg-12
-                p.mb-0 La proposición aparece al inicio y se refuerza al final.
-            .row.justify-content-center.align-items-center(numero="4" titulo="Argumento paralelo") 
+                ul.lista-ul.mb-0
+                  li.d-flex.mb-0
+                    i.fas.fa-leaf
+                    p.mb-0 La proposición aparece al inicio y se refuerza al final.
+            .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="4. Argumento paralelo")
               .col-lg-12
-                ul.lista-ul
-                  li.d-flex.mb-2
+                ul.lista-ul.mb-0
+                  li.d-flex.mb-0
                     i.fas.fa-leaf
                     p.mb-0 Se presentan varias proposiciones a lo largo del argumento.
-            .row.justify-content-center.align-items-center(numero="5" titulo="Argumento por contraste o comparación") 
+            .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="5. Argumento por contraste o comparación")
               .col-lg-12
-                ul.lista-ul
-                  li.d-flex.mb-2
+                ul.lista-ul.mb-0
+                  li.d-flex.mb-0
                     i.fas.fa-leaf
                     p.mb-0 Se comparan dos proposiciones, destacando similitudes o diferencias.
-        .col-lg-6
-          figure(data-aos="fade-left")
-            img.d-none.d-lg-block(src="@/assets/curso/tema1/22.png", alt="alt")
       
       p.mb-0(data-aos="fade-left") En este último fragmento se habla de proposición, por lo que es importante precisar a qué hace referencia a la vez que tiene todo que ver con la argumentación.
       p.mb-4(data-aos="fade-left") Para Aristóteles (340 a. C.), una proposición es “un discurso enunciativo perfecto que se expresaba en un juicio que significaba falso o verdadero”, significado que se retoma, toda vez que para considerar un tesis, situación o idea como cierta o falsa el individuo está llamado a construir el argumento de su apreciación, para que de esta manera los conocimientos o la información que aporta sea precisa, clara y la relación es precisa.
