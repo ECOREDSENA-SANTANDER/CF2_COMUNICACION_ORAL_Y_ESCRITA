@@ -149,8 +149,8 @@
       .col-lg-12
         figure
           .video
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s?si=MGQOEoVntjrV_-za" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        figcaption Video. CF2 - COMPRENDER Y ARGUMENTAR
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ITCX1BBo6uc?si=pN1_fb57c8l0luxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        figcaption Video. Comprender y argumentar
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
       .col-lg-12
