@@ -15,7 +15,8 @@
           .col-lg-4
             img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/10.svg')
           .col-lg-8
-            p.mb-lg-4.mb-2(data-aos="fade-left") La argumentación no es una única forma de razonar, sino que puede adoptar distintas estructuras dependiendo del objetivo, la audiencia y el contexto. A continuación, presento los tipos más comunes de argumentación, junto con las bases teóricas que los sustentan.
+            p.mb-lg-4.mb-2(data-aos="fade-left") La argumentación no es una única forma de razonar, sino que puede adoptar distintas estructuras dependiendo del objetivo, la audiencia y el contexto. A continuación, se presentan los tipos más comunes de argumentación, junto con las bases teóricas que los sustentan.
+
 
 
     .row.fondo2.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-down")
@@ -59,9 +60,9 @@
                   .col
                     p.mb-lg-0.mb-4 Ejemplo:
                   .col-lg-10
-                    p.mb-0 - Observación 1: El sol salió todos los días de la semana pasada.
-                    p.mb-0 - Observación 2: El sol ha salido todos los días durante el mes.
-                    p.mb-lg-0.mb-4 - Conclusión: El sol siempre sale por la mañana.
+                    p.mb-0 - Observación 1: el sol salió todos los días de la semana pasada.
+                    p.mb-0 - Observación 2: el sol ha salido todos los días durante el mes.
+                    p.mb-lg-0.mb-4 - Conclusión: el sol siempre sale por la mañana.
               .col-lg-4.col-md-7.col-10
                 img.img-a.img-t(src='@/assets/curso/tema3/3.png')
    
@@ -84,9 +85,9 @@
                     .col
                       p.mb-lg-0.mb-4 Ejemplo:
                     .col-lg-11
-                      p.mb-0 - Situación 1: Los humanos tienen una función vital que es la circulación sanguínea.
-                      p.mb-0 - Situación 2: Las máquinas tienen sistemas de circulación para mantener su funcionamiento.
-                      p.mb-0 - Conclusión: Así como los humanos necesitan sangre para sobrevivir, las máquinas necesitan un sistema de circulación para operar correctamente.
+                      p.mb-0 - Situación 1: los humanos tienen una función vital que es la circulación sanguínea.
+                      p.mb-0 - Situación 2: las máquinas tienen sistemas de circulación para mantener su funcionamiento.
+                      p.mb-0 - Conclusión: así como los humanos necesitan sangre para sobrevivir, las máquinas necesitan un sistema de circulación para operar correctamente.
 
             .row.justify-content-center.align-items-center(titulo="Paso 4")
               .col-lg-7
@@ -117,7 +118,7 @@
                 ul.lista-ul
                   li.d-flex.mb-1
                     i.fas.fa-leaf
-                    p.mb-0 Aristóteles también habla del ethos (carácter) como uno de los modos de persuasión en su retórica. La autoridad en el contexto educativo juega un rol clave en la enseñanza y en la transmisión de conocimiento.
+                    p.mb-0 Aristóteles también habla del #[em ethos] (carácter) como uno de los modos de persuasión en su retórica. La autoridad en el contexto educativo juega un rol clave en la enseñanza y en la transmisión de conocimiento.
                   li.d-flex.mb-1
                     i.fas.fa-leaf
                     p.mb-lg-0.mb-3 En educación, se utiliza para enseñar a los estudiantes a confiar en fuentes confiables y expertos para reforzar su comprensión.
@@ -134,7 +135,7 @@
 
             .row.justify-content-center.align-items-center(titulo="Paso 6")
               .col-lg-7
-                h4.mb-4 6. Argumentación emocional (pathos)
+                h4.mb-4 6. Argumentación emocional (#[em pathos])
                 p.mb-4 La argumentación emocional busca provocar una respuesta emocional en el receptor. Este tipo de argumento se enfoca en las emociones y sentimientos del público para lograr el impacto deseado.
                 ul.lista-ul
                   li.d-flex.mb-1

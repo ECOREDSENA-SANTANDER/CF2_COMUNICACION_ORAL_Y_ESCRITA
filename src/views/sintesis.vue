@@ -13,7 +13,7 @@
       .row.justify-content-center
         .col-lg-12.mb-5.bgs.p-lg-4.p-0
           figure
-            img(src="@/assets/curso/sintesis.svg", alt="Descripción imagen")
+            img(src="@/assets/curso/sintesis.svg", alt="Sirve para convencer, explicar y dialogar. Se basa en una tesis, argumentos y una conclusión. Usarla bien implica pensar con claridad, respetar al otro y evitar errores como las falacias.")
         .col-auto
           a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
             .anexo__icono

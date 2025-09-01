@@ -285,8 +285,8 @@
         .col-lg-6
           img.mb-lg-0.mb-4(src='@/assets/curso/tema1/23.svg', alt='Ejemplos de proposiciones: 1. Bogotá es la capital de Colombia. 2. Aristóteles fue el primero en aportar el concepto de proposición.')
         .col-lg-6(data-aos="fade-left")
-          p.mb-4 De otra parte, para Bustamante (2009) un argumento o razonamiento es un bloque de proposiciones, con el cual se afirma que una de ellas, llamada conclusión se deriva, se desprende o se sigue como consecuencia de otras proposiciones del mismo bloque llamadas “premisas”.
-          p.mb-0 Por último y siguiendo, con Bustamante (2009) un ejemplo de estructura de argumento puede ser.
+          p.mb-4 De otra parte, para Bustamante (2009), un argumento o razonamiento es un bloque de proposiciones, con el cual se afirma que una de ellas, llamada conclusión se deriva, se desprende o se sigue como consecuencia de otras proposiciones del mismo bloque llamadas “premisas”.
+          p.mb-0 Por último y siguiendo, con Bustamante (2009), un ejemplo de estructura de argumento puede ser.
           p.mb-0 Ejemplo: construir un diagrama que muestre la estructura del argumento siguiente, es decir, la relación de dependencia entre las premisas, y entre estas y la conclusión (Copi & Cohen, 1998).
 
 
@@ -302,7 +302,7 @@
             p.bloque-texto-f__texto.mx-lg-5.mx-4.mb-4 En consecuencia, se puede asegurar, como afirmación general, que el propósito de la legislación es más útil a la humanidad en una democracia que en una aristocracia.
 
       p.mb-4(data-aos="fade-right") El primer paso consiste en reescribir el argumento, insertando códigos numéricos para identificar las premisas y la(s) conclusión(es) y para delimitar el alcance de las mismas, como se presenta a continuación:
-      p.mb-4(data-aos="fade-left") {1} [En las democracias, las leyes generalmente tienden a promover el beneficio del mayor número posible de personas]; porque {2} [tales leyes emanan de la mayoría de los ciudadanos, quienes están sujetos a error, pero no pueden tener intereses opuestos a su propio beneficio]. Por el contrario, {3} [en una aristocracia las leyes tienden a concentrar la riqueza y el poder en las manos de la minarla]; porque {4} [una aristocracia, por su misma naturaleza, constituye una minoría]. En consecuencia, {5} [se puede asegurar, como afirmación general, que el propósito de la legislación es más útil a la humanidad en una democracia que en una aristocracia].
+      p.mb-4(data-aos="fade-left") {1} [En las democracias, las leyes generalmente tienden a promover el beneficio del mayor número posible de personas]; porque {2} [tales leyes emanan de la mayoría de los ciudadanos, quienes están sujetos a error, pero no pueden tener intereses opuestos a su propio beneficio]. Por el contrario, {3} [en una aristocracia las leyes tienden a concentrar la riqueza y el poder en las manos de la minoría]; porque {4} [una aristocracia, por su misma naturaleza, constituye una minoría]. En consecuencia, {5} [se puede asegurar, como afirmación general, que el propósito de la legislación es más útil a la humanidad en una democracia que en una aristocracia].
       p.mb-5(data-aos="fade-right") El segundo paso consiste en utilizar los códigos numéricos y sustituir con ellos las afirmaciones que representan. En nuestro ejercicio el texto toma esta forma: {1} porque {2}; {3} porque {4} y, en consecuencia {5}.
 
 
@@ -314,7 +314,7 @@
           
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-right")
         .col-lg-6
-          img.mb-lg-0.mb-4(src='@/assets/curso/tema1/24.svg', alt='Representa la estructura lógica de un argumento. •	La premisa {2} conduce a la afirmación {1}. •	La premisa {4} conduce a la afirmación {3}. •	Tanto {1} como {3} conducen a la conclusión general {5}.')
+          img.mb-lg-0.mb-4(src='@/assets/curso/tema1/24.svg', alt='Las proposiciones {1} y {2} forman un razonamiento en el cual {1} es una conclusión parcial o intermedia, y {2} constituye la razón para la misma. Una relación similar existe entre las proposiciones.')
         .col-lg-6
           .row.justify-content.align-items-center.mb-0
             .col-lg-6      
