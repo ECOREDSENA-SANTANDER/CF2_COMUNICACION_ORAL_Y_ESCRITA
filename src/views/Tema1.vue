@@ -149,7 +149,7 @@
           .row.justify-content-start.mb-0
             .col-lg-6.o1
               img.img-a.mb-4(data-aos="fade-left")(src='@/assets/curso/tema1/12.svg' alt='AvatarTop')
-              p.mb-4 #[b A.] Qué o a quiénes se observará para así esclarecer el objeto de estudio.
+              p.mb-4 #[b A.] ¿Qué o a quiénes se observará para así esclarecer el objeto de estudio?
               .br(data-aos="fade-left")
               img.img-a.mb-4(data-aos="fade-right")(src='@/assets/curso/tema1/13.svg' alt='AvatarTop')
               p.mb-4.pe-lg-4 #[b B.] Determinar cuál es la fundamentación con que rige la observación, y así establecer la forma de realizarla.
@@ -159,7 +159,6 @@
               p.mb-4 #[b D.] Realizar registros de observación con base en las guías, según sea el caso, para valorar si los tiempos, las manifestaciones, o las actuaciones de los sujetos o fenómenos que se registran en ellas son los necesarios para cubrir el tema de estudio.
               img.img-a.mb-4(data-aos="fade-right")(src='@/assets/curso/tema1/16.svg' alt='AvatarTop')
               p.mb-0 #[b E.] Seleccionar los procesos que aportan al análisis e interpretación de lo observado.
-
 
             .col-lg-12.o2
               img.img-a.mb-4(data-aos="fade-left")(src='@/assets/curso/tema1/14.svg' alt='AvatarTop')
@@ -273,7 +272,7 @@
                     p.mb-0 Se comparan dos proposiciones, destacando similitudes o diferencias.
       
       p.mb-0(data-aos="fade-left") En este último fragmento se habla de proposición, por lo que es importante precisar a qué hace referencia a la vez que tiene todo que ver con la argumentación.
-      p.mb-4(data-aos="fade-left") Para Aristóteles (340 a. C.), una proposición es “un discurso enunciativo perfecto que se expresaba en un juicio que significaba falso o verdadero”, significado que se retoma, toda vez que para considerar un tesis, situación o idea como cierta o falsa el individuo está llamado a construir el argumento de su apreciación, para que de esta manera los conocimientos o la información que aporta sea precisa, clara y la relación es precisa.
+      p.mb-4(data-aos="fade-left") Para Aristóteles (340 a. C.), una proposición es “un discurso enunciativo perfecto que se expresaba en un juicio que significaba falso o verdadero”, significado que se retoma, toda vez que para considerar una tesis, situación o idea como cierta o falsa el individuo está llamado a construir el argumento de su apreciación, para que de esta manera los conocimientos o la información que aporta sea precisa, clara y la relación es precisa.
       
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-12
