@@ -220,7 +220,7 @@
               .col-lg-7.p-4(data-aos="fade-left")
                 .bg3.p-1.mb-4.my-3
                   h4.mb-0.ps-3.pe-3(data-aos="fade-left") ¿Cómo argumentar?
-                p.mb-0(data-aos="fade-right") Esta respuesta se articula con el tema anterior: pregunta, observación y interpretación, son elementos constitutivos del argumento que transversalizan la construcción de un argumento. Para argumentar hay que preguntarse, inquietarse, generar hipótesis, ver el todo de una manera holística, no solo observar una parte, sino las partes en relación con el todo.
+                p.mb-0(data-aos="fade-right") Esta respuesta se articula con el tema anterior: pregunta, observación y la interpretación, son elementos constitutivos del argumento que transversalizan la construcción de un argumento. Para argumentar hay que preguntarse, inquietarse, generar hipótesis, ver el todo de una manera holística, no solo observar una parte, sino las partes en relación con el todo.
           p.mb-0 Ejemplo de ello, la construcción de un ensayo o escrito fundamentado en proposiciones objetivas. Un ensayo se compone de tres partes básicas y dialogantes entre sí: 
         .col-lg-3.mb-lg-5
           img.d-none.d-lg-block(src='@/assets/curso/tema1/20.png', alt='')
